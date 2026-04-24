@@ -2,6 +2,7 @@ ATM Simulation System (Python)
 A modular, console-based ATM (Automated Teller Machine) simulation built with Python. This project demonstrates the use of modular programming, state management using parallel lists, and control flow logic to simulate real-world banking operations.
 
 🚀 Features
+
 Secure Authentication: Access to banking features (Balance, Deposit, Withdraw) is protected by ID and PIN verification.
 
 Transaction History: A detailed "Bank Statement" feature that logs every deposit and withdrawal made during the session.
@@ -11,6 +12,7 @@ Dynamic Balance Updates: Real-time calculation of balances with built-in validat
 Modular Architecture: The logic is split across multiple files (deposit.py, withdraw.py, balance.py, etc.) for better maintainability and cleaner code.
 
 📁 Project Structure
+
 main.py: The entry point of the application containing the primary menu loop.
 
 utils.py: The central data hub storing user profiles, credentials, and transaction logs.
